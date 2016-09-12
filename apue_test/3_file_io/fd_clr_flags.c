@@ -1,7 +1,7 @@
 #include "apue.h"
 #include <fcntl.h>
 
-void set_fl(int fd, int flags) /* flags are file status flags to turn off */
+void clr_fl(int fd, int flags) /* flags are file status flags to turn off */
 {
     int val;
     
